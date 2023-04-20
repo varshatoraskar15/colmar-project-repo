@@ -1,0 +1,428 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ li {
+    padding: 16px 16px;
+}
+ a {
+    text-decoration: none;
+    color: #3c3b3d;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    height: 64px;
+}
+.logo img{
+    height: 50px;
+}
+
+.logo > p {
+    display: inline;
+    font-weight: bold;
+    color: #3c3b3d;
+}
+
+.logo > span {
+    font-weight: medium;
+    color: #8e8e8e;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+
+.container {
+    background-color: #dfdfdf;
+    display: flex;
+    padding: 5% 3%;
+}
+
+.container button {
+    background-color: #3c3b3d;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.container-left img {
+    width: 80%;
+}
+
+.container-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1%;
+    padding: 0 2%;
+}
+
+.container-right > h1, h4 {
+    padding: 10%;
+    color: #3c3b3d;
+}
+
+.container-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: #3c3b3d;
+}
+
+
+
+.news-left {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.news-left img {
+    width: 100%;
+}
+
+.news-left-info {
+    padding-bottom: 2%;
+}
+
+.news-left-info h2,p {
+    padding: 2%;
+}
+
+.news-left-info p {
+    font-size: 80%;
+}
+
+/**** News right ****/
+
+.news-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-right img {
+    width: 10rem;
+}
+
+.news-right h4 {
+    font-size: 140%;
+}
+
+.news-right button{
+    background: none;
+    border: 0;
+}
+
+.news-right a{
+    text-decoration: none;
+}
+
+.orientation, .campus, .guest {
+    display: flex;
+    border: 1px solid #dfdfdf;
+    padding: 2%;
+}
+
+.orientation-info, .campus-info, .guest-info {
+   padding: 0 5%; 
+   margin-top: 4%;
+   font-size: 80%;
+}
+
+.orientation-info > *, .campus-info > *, .guest-info > * {
+    padding: 2% 0;
+ }
+
+.guest {
+    background-color: #dfdfdf;
+    margin: 0 0 2% 0;
+}
+
+
+.orientation-left-mobile, .campus-left-mobile, .guest-left-mobile {
+    display: none;
+}
+
+
+.sl-container {
+    background-color: var(--lightest-grey);
+    padding: 2% 5% 8% 5%;
+}
+
+.sl-container > h1 {
+    text-align: center;
+    color: #3c3b3d;
+    padding: 4%;
+}
+
+
+.sl-grid-wrapper {
+    display: grid;
+   
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+
+.sl-grid-wrapper img {
+    width: 100%;
+}
+
+
+/**** Start learning individual card****/
+.sl-grid-wrapper > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-info {
+    background-color: white;
+    padding: 5%;
+}
+
+.sl-info > * {
+    padding: 3% 0;
+}
+
+.sl-info > p {
+    font-size: small;
+    color: #8e8e8e;
+}
+
+.sl-mobile {
+    display: none;
+}
+
+
+.thesis-container > h1 {
+    color: #3c3b3d;
+    text-align: center;
+    padding: 5%;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+
+.urban-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+}
+
+.urban-video > video {
+    width: 100%;
+}
+
+.urban-info {
+    padding: 1% 0 5% 0;
+}
+
+.urban-info > * {
+    padding: 1% 0;
+}
+
+.urban-info > p {
+    font-size: small;
+    color: #3c3b3d;
+}
+
+.other-thesis-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-thesis-container img {
+    width: 10rem;
+}
+
+.other-thesis-container p{
+    font-size: small;
+    color: #3c3b3d
+}
+
+.fisma, .now-and-then {
+    display: flex;
+    padding: 5%;
+}
+
+.fisma {
+    background-color: #e9e9e9;
+}
+
+.fisma-info, .nt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fisma-info > *, .nt-info>* {
+    padding: 1%;
+    margin: 5% 8%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--light-grey);
+    margin-bottom: 1%;
+}
+
+footer > * {
+    font-size:small;
+    color: #3c3b3d;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3c3b3d
+}
+
+footer li {
+    padding: 0 1em;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+
+    nav > .logo, nav > ul {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        grid-gap: 70%;
+        margin: 2% 3%;
+    }
+
+    
+    .hero-container {
+        flex-direction: column;
+        padding: 0 0 5% 0;
+    }
+
+    .hero-container img {
+        width: 100%;
+    }
+
+    .hero-right button {
+        background-color: var(--light-grey);
+        border: none;
+        font-size: 100%;
+    } 
+
+   
+    .news-left {
+        display: none;
+    }
+
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+
+    .news-right > * {
+        display: flex;
+        flex-direction: column;
+        font-size: 120%;
+    }
+
+    .orientation-left-desktop, .campus-left-desktop, .guest-left-desktop {
+        display: none;
+    }
+
+    .news-right img {
+        width: 100%;
+    }
+
+    .orientation-left-mobile, .campus-left-mobile, .guest-left-mobile {
+        display: inline;
+    }
+
+    .guest {
+        background-color: white;
+    }
+
+   
+    .sl-container {
+        background-color: white;
+    }
+
+    .sl-grid-wrapper {
+        display: none;
+    }
+
+    .sl-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sl-mobile > * {
+        background-color: #e9e9e9;
+        color: #3c3b3d;
+        height: 5rem;
+        margin: 1%;
+        text-decoration: none;
+    }
+
+    .sl-mobile h1 {
+        padding: 5%;
+    }
+
+    
+    .urban-info, .other-thesis-container {
+        display: none;
+    }
+
+    .thesis-grid {
+        grid-template-columns: 1fr;
+    }
+
+    
+    footer {
+        padding: 10% 0 2%;
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+    
+}
+  
